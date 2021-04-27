@@ -1,0 +1,30 @@
+{
+    "name": "gioppy/statamic-xmlsitemap",
+    "description": "A fieldset for manage and generate Sitemap XML",
+    "type": "statamic-addon",
+    "require": {
+        "statamic/cms": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gioppy\\StatamicXmlsitemap\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giovanni Buffa",
+            "email": "tech@giovannibuffa.it"
+        }
+    ],
+    "extra": {
+        "statamic": {
+            "name": "Statamic XML Sitemap",
+            "description": "A fieldset for manage and generate Sitemap XML"
+        },
+        "laravel": {
+            "providers": [
+                "Gioppy\\StatamicXmlsitemap\\ServiceProvider"
+            ]
+        }
+    }
+}
